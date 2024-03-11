@@ -12,6 +12,7 @@ render() {
       <MovieList />
       <ChoresList />
       <BookList />
+      <HobbyLinks />
     </div>
   );
 }
