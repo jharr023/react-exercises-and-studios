@@ -4,7 +4,9 @@ import MovieList from './components/MovieList.jsx';
 import ChoresList from './components/ChoresList.jsx';
 import BookList from './components/BookList.jsx';
 
-function App() {
+class App extends Component  {
+
+render() {
   return (
     <div className="App">
       <MovieList />
@@ -12,6 +14,7 @@ function App() {
       <BookList />
     </div>
   );
+}
 }
 
 export default App;
