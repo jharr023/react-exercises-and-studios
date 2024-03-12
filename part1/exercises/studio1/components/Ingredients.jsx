@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Ingredients.module.css';
 
-export default RecipeIngredients;
 
 function RecipeIngredients() {
   // Array containing the top 5 ingredients
@@ -27,3 +26,4 @@ function RecipeIngredients() {
   );
 }
 
+export default RecipeIngredients;
