@@ -43,9 +43,10 @@ import RecipePhoto from 'C:/Users/kaise/OneDrive/Desktop/LaunchCode/react-exerci
 function App() {
   return (
     <div className="App">
-    <div>
+    <div className="recipePhotoBlock">
     <RecipePhoto />
-    <div>
+    
+    <div className="recipePhotoBlock" >
        <RecipeDescription />
        <RecipeIngredients />
     </div>
