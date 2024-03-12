@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from './Recipe.module.css'; // Assuming you have a CSS module for styling
+import styles from './Ingredients.module.css';
+
+export default RecipeIngredients;
 
 function RecipeIngredients() {
   // Array containing the top 5 ingredients
@@ -25,4 +27,3 @@ function RecipeIngredients() {
   );
 }
 
-export default RecipeIngredients;

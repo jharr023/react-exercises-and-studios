@@ -36,6 +36,9 @@ export default App */
 
 import { useState } from 'react'
 import './App.css'
+import RecipeAuthor from './Description.jsx'
+import RecipeIngredients from './Ingredients.jsx'
+import RecipeDescription from './Ingredients.jsx'
 
 function App() {
 
@@ -43,6 +46,7 @@ function App() {
     <div className="App">
     <div>
        <RecipeDescription />
+       <RecipeIngredients />
     </div>
  </div>
 
