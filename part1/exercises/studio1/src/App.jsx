@@ -38,16 +38,19 @@ import { useState } from 'react'
 import './App.css'
 import RecipeIngredients from 'C:/Users/kaise/OneDrive/Desktop/LaunchCode/react-exercises-and-studios/part1/exercises/studio1/components/Description.jsx'
 import RecipeDescription from 'C:/Users/kaise/OneDrive/Desktop/LaunchCode/react-exercises-and-studios/part1/exercises/studio1/components/Ingredients.jsx'
-function App() {
+import RecipePhoto from 'C:/Users/kaise/OneDrive/Desktop/LaunchCode/react-exercises-and-studios/part1/exercises/studio1/components/Photos.jsx'
 
+function App() {
   return (
     <div className="App">
+    <div>
+    <RecipePhoto />
     <div>
        <RecipeDescription />
        <RecipeIngredients />
     </div>
  </div>
-
+ </div>
   )
 }
 
