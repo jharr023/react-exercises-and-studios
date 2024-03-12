@@ -36,8 +36,8 @@ export default App */
 
 import { useState } from 'react'
 import './App.css'
-import RecipeIngredients from 'part1\exercises\studio1\components\Ingredients.jsx'
-import RecipeDescription from 'part1\exercises\studio1\components\Description.module.css'
+import RecipeIngredients from 'part1/exercises/studio1/components/Ingredients.jsx'
+import RecipeDescription from 'part1/exercises/studio1/components/Description.jsx'
 
 function App() {
 
