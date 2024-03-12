@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import styles from './Description.module.css';
 
-class RecipeDescription extends Component {
+class RecipeDescription extends React.Component {
   render() {
     return (
       <div>
         <div>
-          <h1>Recipe Title</h1>
-          <p>Short recipe description</p>
+          <h1>Chocolate Chip Cookie</h1>
+          <p>Cookie</p>
         </div>
         <RecipeAuthor />
       </div>
@@ -15,11 +15,11 @@ class RecipeDescription extends Component {
   }
 }
 
-function RecipeAuthor() {
+const RecipeAuthor = ()  => {
   // Local variables
-  const authorLink = 'https://pinchofyum.com/'; 
-  const authorPhoto = 'https://pinchofyum.com/wp-content/assets/images/about/lindsay-hero.jpg'; 
-  const authorName = 'Lindsay'; 
+  let authorLink = 'https://pinchofyum.com/'; 
+  let authorPhoto = 'https://pinchofyum.com/wp-content/assets/images/about/lindsay-hero.jpg'; 
+  let authorName = 'Lindsay'; 
 
   return (
     <div className="recipeAuthorBlock">

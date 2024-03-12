@@ -5,11 +5,11 @@ import styles from './Ingredients.module.css';
 function RecipeIngredients() {
   // Array containing the top 5 ingredients
   const ingredients = [
-    '8 tablespoons of salted butter',
-    '1 teaspoon vanilla',
-    '3/4 cup chocolate chips',
-    '1 1/2 cups all purpose flour',
-    '1 egg'
+    "8 tablespoons of salted butter",
+    "1 teaspoon vanilla",
+    "3/4 cup chocolate chips",
+    "1 1/2 cups all purpose flour",
+    "1 egg"
   ];
 
   return (
